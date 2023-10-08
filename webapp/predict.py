@@ -1,15 +1,8 @@
-!pip install pandas
-!pip install numpy
-!pip install pickle
-!pip install torch
-!pip install transformers
-
 import pandas as pd
 import numpy as np
 import transformers
 import os, warnings, pickle, torch
 warnings.filterwarnings('ignore')
-from transformers import BertTokenizer
 
 def emotion(result):
     emotions_map = {
@@ -19,7 +12,7 @@ def emotion(result):
         "3" : "enthusiasm",
         "4" : "fear",
         "5" : "fun",
-        "6" : "happiness",
+        "6" : "happy",
         "7" : "happy",
         "8" : "hate",
         "9" : "love",
