@@ -1,3 +1,9 @@
+!pip install pandas
+!pip install numpy
+!pip install pickle
+!pip install torch
+!pip install transformers
+
 import pandas as pd
 import numpy as np
 import transformers
