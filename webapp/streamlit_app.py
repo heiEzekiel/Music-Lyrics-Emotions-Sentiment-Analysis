@@ -148,5 +148,6 @@ components.html(
 
     """,
     
-height=600,
+height=1080,
+width=1920,
 )
